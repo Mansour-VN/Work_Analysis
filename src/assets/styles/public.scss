@@ -1,0 +1,41 @@
+@import "./reset.scss";
+
+html {
+  background: #a8c0ff; 
+  background: -webkit-linear-gradient(
+    to right,
+    #3f2b96,
+    #a8c0ff
+  );
+  background: linear-gradient(
+    to right,
+    #3f2b96,
+    #a8c0ff
+  );
+  height: 100vh;
+  font-size: 62.5%; //10px
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: -webkit-fill-available;
+  height: fill-available;
+  height: -moz-available;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

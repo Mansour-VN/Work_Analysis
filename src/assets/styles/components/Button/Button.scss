@@ -1,0 +1,67 @@
+
+.btn {
+  border: none;
+  outline: none;
+  filter: brightness(1);
+  padding: 1rem;
+  font-size: 1.6rem;
+
+  &:hover {
+    cursor: pointer;
+    filter: brightness(0.9);
+    transition: 0.3s;
+  }
+
+  &--primary {
+    background-color: var(--primary);
+    color: white;
+  }
+
+  &--secondary {
+    background-color: var(--secondary);
+    color: white;
+  }
+
+  &--success {
+    background-color: var(--success);
+    color: white;
+  }
+
+  &--info {
+    background-color: var(--info);
+    color: white;
+  }
+
+  &--warning {
+    background-color: var(--warning);
+    color: white;
+  }
+
+  &--danger {
+    background-color: var(--danger);
+    color: white;
+  }
+
+  &--light {
+    background-color: var(--light);
+    color: black;
+  }
+
+  &--dark {
+    background-color: var(--dark);
+    color: white;
+  }
+
+  &--small {
+    transform: scale(0.8);
+  }
+
+  &--medium {
+    transform: scale(1.2);
+  }
+
+  &--large {
+    transform: scale(1.4);
+  }
+
+}

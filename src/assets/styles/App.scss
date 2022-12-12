@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+
+  &__header {
+
+    h3 {
+      color: white;
+      font-size: 2.4rem;
+    }
+  }
+
+  &__body {
+    margin-top: 4rem;
+    display: flex;
+    gap: 0.5rem;
+
+    select {
+      height: 100%;
+    }
+    
+    &__search-box {
+      display: flex;
+      background-color: white;
+      padding: 0.5rem;
+      gap: 0.5rem;
+    }
+  }
+
+  &__footer {
+    margin-top: 4rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    &__todo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: white;
+
+      &__title {
+        font-size: 1.6rem;
+        padding-left: 0.5rem;
+      }
+
+      .todo-done {
+        text-decoration: line-through;
+      }
+    }
+  }
+
+  .Toastify__toast-body {
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: system-ui;
+  }
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

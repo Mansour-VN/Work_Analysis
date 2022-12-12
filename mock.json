@@ -1,0 +1,10 @@
+{
+    "lang": {"JS":0,"TS":0,"Node.js":0,"PHP":0,"Laravel":0,"Express":0},
+  "UI-Framework":{"Tailwind":0,"Bootstrap":0,"Material-UI":0,"SASS":0,"Styled-components":0,"JSS":0,"Emotion":0},
+  "Framework":{"React":0,"React Native":0,"Angular":0,"Vue.js":0,"Next.js":0,"Nuxt.js":0,"Graphql":0,"Gatsby":0 },
+  "API":{"Axios":0,"RestFul":0},
+  "State-Managements":{"React-Context":0,"Redux":0,"Redux-Toolkit":0,"Saga":0,"Mobx":0,"Flux":0},
+  "Other Tolls":{"React Router DOM":0,"Vue Router":0},
+  "Test":{"Jest":0,"Enzyme":0,"React Testing Library":0,"Cypress":0},
+  "Other":{"figma":0,"Photoshop":0,"illustrator":0}
+}
